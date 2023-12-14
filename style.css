@@ -1,0 +1,319 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+header {
+  position: absolute;
+  width: 100%;
+  background-color: rgba(33, 33, 45, 0.7) !important;
+  opacity: 0.0 - 1.0 !important;
+  color: #fff;
+  z-index: 1;
+
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+header .logo {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+header .language-switch {
+  margin-left: auto;
+}
+
+a {
+  font-size: 12px;
+  text-decoration: none !important;
+}
+
+a:hover {
+  cursor: pointer;
+  color: green !important;
+}
+
+.btn-header {
+  background-color: #CD7B1A;
+  padding: 20px;
+}
+
+.banner {
+  width: 100%;
+  height: 710px;
+  position: relative;
+  overflow: hidden;
+}
+
+.banner img {
+  width: 100%;
+  height: 800px;
+}
+
+.banner-text {
+  position: absolute;
+  top: 40%;
+  left: 22%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-size: 2em;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.arrow i {
+  font-size: 30px;
+}
+
+.arrow-left {
+  left: 20px;
+}
+
+.arrow-right {
+  right: 20px;
+}
+
+.section {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 15%;
+
+}
+
+.section img {
+  max-width: 50%;
+  /* Chiều rộng tối đa của hình ảnh */
+  height: auto;
+}
+
+.text-content {
+  position: relative;
+  max-width: 40%;
+  font-size: 20px;
+  /* Chiều rộng tối đa của nội dung văn bản */
+}
+
+.text-content span {
+  color: green;
+}
+
+.border-under::before {
+  content: "";
+  width: 40px;
+  top: 23%;
+  left: 0;
+  position: absolute;
+  border: 2px solid green;
+}
+
+.border-under1::before {
+  content: "";
+  width: 20px;
+  top: 23%;
+  left: 50px;
+  position: absolute;
+  border: 2px solid green;
+}
+
+.border-under2::before {
+  content: "";
+  width: 10px;
+  top: 23%;
+  left: 80px;
+  position: absolute;
+  border: 2px solid green;
+}
+
+.tile-h2 {
+  color: black;
+
+}
+
+.tile-h2 span {
+  color: #1BB71F;
+}
+
+.tile-p{
+  padding-top: 14%;
+}
+
+/* Đoạn văn bản */
+.tile-p p {
+  font-size: 11px;
+  /* Kích thước chữ */
+  line-height: 1.5;
+  /* Khoảng cách giữa các dòng */
+  color: #333;
+  /* Màu chữ */
+}
+.border-under3::before {
+  content: "";
+  width: 40px;
+  top: 23%;
+
+  position: absolute;
+  border: 2px solid green;
+}
+
+.border-under4::before {
+  content: "";
+  width: 20px;
+  top: 23%;
+  left:17%;
+  position: absolute;
+  border: 2px solid green;
+}
+
+.border-under5::before {
+  content: "";
+  width: 10px;
+  top: 23%;
+  left: 25%;
+  position: absolute;
+  border: 2px solid green;
+}
+
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.list-straw {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.item {
+  width: 230px;
+  height: 220px;
+  margin: 15px;
+
+  background-color: #fff;
+}
+.border-item{
+  border-bottom: 1px solid #ccc;
+}
+.border-item:first-child {
+  border-bottom: 1px solid #1BB71F;
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+}
+
+.item h2 {
+  font-size: 16px;
+  text-align: center;
+  margin: 0px;
+  padding-top: 16px;
+}
+
+.item p {
+  font-size: 14px;
+  text-align: center;
+}
+
+.empty {
+  width: 300px;
+  height: 200px;
+  background-color: #fff;
+}
+
+
+/* Login-Register */
+
+.banner2 {
+  position: relative;
+  background-image: url(img/banner2.png) ;
+  background-size: cover;
+  width: 100%;
+  height: 250px;
+  margin: 40px 0;
+}
+.banner2 div {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(33, 33, 45, 0.6);
+}
+
+.banner2 p{
+  font-size: 25px;
+  position: absolute;
+  color: #C4C4C4;
+  top:45%;
+  left: 27%;
+}
+.banner2 p span {
+  color: green;
+  position: relative;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+.list-straw1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+footer {
+  background-color: #21212D;
+  padding: 10px;
+  height: 150px;
+  width: 100%;
+}
+
+.logo-footer {
+  float: left;
+  justify-items: center;
+  padding-top: 30px;
+  margin-left: 75px;
+}
+
+.logo-footer p {
+  color:#C4C4C4;
+}
+
+.footer-bottem {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.p1 p{
+  display: flex;
+  justify-content: center;
+}
+.copy-right {
+  display: flex;
+  color: #C4C4C4;
+  background-color: #000;
+  justify-content: center;
+  margin-bottom: 0 !important;
+}
